@@ -1,0 +1,241 @@
+.ToBegin{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    text-decoration: none;
+    color: white;
+    /* background-color: ; */
+}
+/* #183E2A, #52BA7B */
+/* background-size: cover;
+background-repeat: no-repeat; */
+/* 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+*{font-family: 'Lucida Sans', Verdana, Tahoma;}
+
+/* .background {
+    height: 100vh; 
+    position: relative; 
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom right, #183e2a 10%, #52ba7b, #183e2a);
+} */
+
+/* ----- ----- MAIN ----- ----- */
+label{font-weight: bold;}
+
+/* ----- ----- HomePage Header ----- ----- */
+.H-container {
+    background-color: #183E2A;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.H-container header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: auto; */
+    /* height: fit-content; */
+    /* margin: auto; */
+}
+
+.H-container .logo img {
+    width: 89px;
+    /* height: 62.5px; */
+    height: fit-content;
+    margin: 15px;
+}
+
+.H-container ul {
+    list-style-type: none;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.H-container li a {
+    display: block;
+    color: white;
+    padding: 0 2em;
+    text-decoration: none;
+    height: 60px;
+    line-height: 60px;
+    font-weight: bolder;
+}
+
+.H-btn{
+    border-radius: 30px;
+    background-color: #71EDA2;
+    color: #183E2A;
+    font-weight: bolder;
+}
+
+/* ----- ----- HomePage Hero ----- ----- */
+.Hero-container{
+    margin-top: 110px;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Hero-text{
+    text-align: center;
+    color: white;
+    /* padding: 1rem; */
+}
+
+.Hero-btn{
+    background-color: #ECBA57;
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+/* ----- ----- Login & Register ----- ----- */
+.LR-container{
+    align-items: center;
+    justify-content: center;
+    /* height: 45vh; */
+    height: fit-content;
+    width: 38em ;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.LR-size{
+    top: 50px;
+    /* margin: 25px; */
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+}
+
+.LR-input{
+    border-radius: 7.5px;
+    border-color: black;
+    height: 4.5vh;
+    margin: 15px;
+}
+
+.LR-p{
+    font-size: 30px;
+    color: white;
+}
+
+.LR-a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.LR-btn{
+    border-radius: 30px;
+    /* border: none; */
+    border-color: #ECBA57;
+    background-color: #ECBA57;
+    color: #183E2A;
+    font-weight: 350;
+    font-size: 30px;
+    height: 7vh;
+    width: 150px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* ----- ----- Extra ----- ----- */
+.Z-head{
+    position: fixed;
+    left: 120px;
+    top: 8px;
+    color: white;
+    margin: 0px;
+}
+
+.Z-logout{
+    border-color: #ECBA57;
+    border-radius: 90px;
+    background-color: #ECBA57;
+}
+
+.Z-label{
+    margin: 10px;
+}
+
+/* ----- ----- Halaman Barang ----- ----- */
+.Hal-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 90px;
+}
+
+.Hal-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table {width: 100%; border-collapse: collapse;}
+.table tr {height: 30px;}
+/* .table tr td {padding:5px 10px;} */
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {border: 1px solid #ddd; padding: 8px;}
+#customers tr:nth-child(even) {background-color: #f2f2f2;}
+#customers tr:hover {background-color: #ddd;}
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #52BA7B;
+    color: white;
+}
+/* ----- ----- Halaman Edit ----- ----- */
+.Add-box{
+    background-color: #D9D9D9; 
+    border: 1px solid #ccc; 
+    padding: 15px; 
+    box-sizing: border-box; 
+    margin: 10px 0 25px 0;
+    margin-top: 110px;
+}
+
+.Add-btn{
+    border-radius: 30px;
+    /* border: none; */
+    border-color: #ECBA57;
+    background-color: #ECBA57;
+    color: #183E2A;
+    font-weight: 350;
+    font-size: 15px;
+    height: 5vh;
+    width: fit-content;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    right: 0px;
+}
+
+.IT{width: 30px; height: 30px; margin-right: 20px; margin-left: 20px;}

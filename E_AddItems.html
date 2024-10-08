@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Item Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body style="background-image: url(images/MainBG.png); background-color: #183E2A">
+    <!-- Header -->
+    <div class="H-container">
+        <header>
+            <div class="logo"><img src="images/Logo.png"></div>
+            <div class="Z-head"><h1>Halaman Edit</h1></div>
+            <nav>
+                <ul>
+                    <li><a href="D_AfterLogin.html">Home</a></li>
+                    <li><a href="#">Add</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Hero -->
+    <div style="width: 50%; margin: 0 auto;">
+        <div class="Add-box">
+            <hr><h3 style="text-align: center;">Tambah Data Barang</h3><hr>
+            <div>
+                <form action="D_AfterLogin.html" method="post" enctype="multipart/form-data">
+                    <label for="kategori_produk">Kategori Produk:</label>
+                    <select name="kategori_produk" id="kategori_produk" required>
+                        <option value="">--None--</option>
+                        <option value="Laptops">Laptops</option>
+                        <option value="Mobile Phones">Mobile Phones</option>
+                        <option value="Tablets">Tablets</option>
+                        <option value="Servers">Servers</option>
+                        <option value="PC">PC</option>
+                        <option value="Cables">Cables</option>
+                        <option value="Headphones">Headphones</option>
+                    </select><br><br>
+
+                    <label for="nama_produk">Nama Produk:</label>
+                    <input type="text" name="nama_produk" id="nama_produk" required><br><br>
+
+                    <label for="deskripsi_produk">Deskripsi Produk:</label><br>
+                    <textarea name="deskripi_produk" id="deskripi_produk" cols="30" rows="10" required></textarea><br><br>
+
+                    <label for="gambar_produk">Gambar Produk:</label>
+                    <input type="file" name="gambar_produk" id="gambar_produk" required><br><br>
+
+                    <label for="stock_produk">Stock Produk:</label>
+                    <input type="text" name="stock_produk" id="stock_produk" required><br>
+                    
+                    <input type="submit" value="Tambah Barang" name="submit" class="Add-btn"><hr>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <a href="D_AfterLogin.html" class="ToBegin" style="right: 110px;">Go Back</a>
+    <a href="A_LandingPage.html" class="ToBegin">To The Start</a>
+</body>
+</html>
